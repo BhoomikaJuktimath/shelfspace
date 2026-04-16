@@ -1,0 +1,61 @@
+/* Light theme styles */
+.light-theme {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-card: #ffffff;
+  --bg-border: #e5e7eb;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --accent-blue: #3b82f6;
+  --accent-purple: #8b5cf6;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+}
+
+/* Light theme overrides */
+.light-theme body {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+.light-theme .bg-dark-bg {
+  background-color: var(--bg-secondary) !important;
+}
+
+.light-theme .bg-dark-card {
+  background-color: var(--bg-card) !important;
+}
+
+.light-theme .border-dark-border {
+  border-color: var(--bg-border) !important;
+}
+
+.light-theme .text-text-primary {
+  color: var(--text-primary) !important;
+}
+
+.light-theme .text-text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.light-theme .hover\:bg-dark-border:hover {
+  background-color: var(--bg-border) !important;
+}
+
+.light-theme .focus\:border-accent-blue:focus {
+  border-color: var(--accent-blue) !important;
+}
+
+/* Scrollbar for light theme */
+.light-theme ::-webkit-scrollbar-track {
+  background: var(--bg-border);
+}
+
+.light-theme ::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+}
+
+.light-theme ::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
